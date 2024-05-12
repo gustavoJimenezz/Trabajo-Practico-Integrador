@@ -1,0 +1,20 @@
+.reservas{
+    padding: 10px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: auto;
+    display: grid;
+    border: solid red 1px;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.check-in-out{
+    min-width: 400px;
+    border: solid red 1px;
+}
+
+.detalles-locacion{
+    min-width: 400px;
+    border: solid red 1px;
+
+}
