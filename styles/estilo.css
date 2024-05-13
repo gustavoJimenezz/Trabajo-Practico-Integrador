@@ -1,13 +1,49 @@
 *{
     padding: 0%;
 }
+.container{
+    padding: 0%;
+}
 .form-check-in-out{
     border: solid red 1px;
-    max-width: 800px;
+    /* max-width: 200px; */
 }
 .form-check-in-out>form>label{
     display: none;
 }
-.date-check-in-out>div>input{
+.form-check-in-out,
+.form-check-in-out>div{
+    margin: 1em;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 65%); 
+}
+.fecha-check-in-out>button,
+.fecha-check-in-out>div>input{
     border-radius: 0%;
+}
+.cont-img {
+    display: grid;
+    grid-template-columns: 50% auto auto;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    grid-template-areas: "imagen-grande imagen1 imagen2"
+                         "imagen-grande imagen3 imagen4";
+}
+.cont-img>div>img{
+    width: 100%;
+    height: auto;
+}
+.imagen-grande{
+    grid-area: imagen-grande;
+}
+.imagen1{
+    grid-area: imagen1;
+}
+.imagen2{
+    grid-area: imagen2;
+}
+.imagen3{
+    grid-area: imagen3;
+}
+.imagen4{
+    grid-area: imagen4;
 }
